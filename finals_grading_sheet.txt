@@ -1,0 +1,41 @@
+Grading Sheet for Python Programming Exam: Book Management System
+General Instructions
+
+    The total marks for the exam are 100.
+    The exam is divided into three parts. Each part will be graded based on the test results from pytest.
+    Tests must pass with the correct functionality to earn full marks for each section.
+    Comments and coding style will also contribute to the grade.
+
+Part A: Book Class (35 points)
+
+    Book Creation and Attribute Access (10 points)
+        5 points for correct initialization of attributes
+        5 points for correct implementation of getter methods
+    String Representations (str and repr) (5 points)
+        2.5 points for correct __str__ method implementation
+        2.5 points for correct __repr__ method implementation
+    Equality and Hashing (10 points)
+        5 points for correct implementation of __eq__
+        5 points for correct implementation of __hash__
+    Sorting (10 points)
+        10 points for correctly implementing comparison methods for sorting
+
+Part B: Library Class (35 points)
+
+    Adding and Removing Books (15 points)
+        10 points for correct functionality of add_book
+        5 points for correct functionality of remove_book
+    Handling Invalid Inputs (10 points)
+        10 points for properly raising exceptions for invalid genres and non-existent books
+    Finding Books by Author (10 points)
+        10 points for correctly implementing and returning a sorted list of books by a given author
+
+Part C: Book Review Manager Class (30 points)
+
+    Review Addition and Retrieval (10 points)
+        10 points for correct addition and retrieval of reviews for a book
+    Handling Ratings (10 points)
+        5 points for correctly calculating the average rating from reviews
+        5 points for properly managing book and review relationships
+    Exception Handling and Validations (10 points)
+        10 points for correct error handling, especially validating book objects and handling missing books in methods
